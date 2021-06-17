@@ -20,8 +20,8 @@ def unpaired_arr(arr):
     else:
         return un_p_arr
 arr = rand_arr()
-print("sozdanii slychainii list :\n", arr)
-print("maximalnii nomer > ", max_in_arr(arr)[0], "\npositiya of maximalnogo nomera > ", max_in_arr(arr)[1]+1)
+print("sozdanii slychainii spisok :\n", arr)
+print("maximalnii nomer > ", max_in_arr(arr)[0], "\npositiya maximalnogo nomera > ", max_in_arr(arr)[1]+1)
 if isinstance(unpaired_arr(arr), list):
     print("Spisok neparnih nomerov otsortirovan ot bolshih k malenkim :\n",
           sorted(unpaired_arr(arr), reverse=True))
