@@ -24,7 +24,7 @@ def unpaired_arr(arr):
         if i % 2 != 0:
             un_p_arr.append(i)
     if len(un_p_arr) == 0:
-        return "no unpaired numbers"
+        return "net parnih nomerov"
     else:
         return un_p_arr
 
@@ -35,7 +35,7 @@ print("max num > ", max_in_arr(arr)[0], "\nposition of max num > ", max_in_arr(a
 
 
 if isinstance(unpaired_arr(arr), list):
-    print("List of unpaired numbers sorted from highest to lowest :\n",sorted(unpaired_arr(arr), reverse=True))
+    print("Spisok neparnih nomerov otsortirovan ot bolshih k malenkim :\n",sorted(unpaired_arr(arr), reverse=True))
 else:
     print(unpaired_arr(arr))
 
