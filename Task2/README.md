@@ -36,3 +36,9 @@
 
 ![4](https://user-images.githubusercontent.com/71783249/122961976-9f378f00-d38d-11eb-9d81-ab3b42dfd446.png)
 
+
+Вид калькулятора:
+
+![Screenshot_4](https://user-images.githubusercontent.com/71783249/123125121-ea66a600-d450-11eb-8c64-0dbd4e988fe7.png)
+
+
